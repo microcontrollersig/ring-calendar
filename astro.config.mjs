@@ -9,6 +9,7 @@ export default defineConfig({
 	image: {
 		service: passthroughImageService()
 	},
+
 	integrations: [
 		starlight({
 			title: 'Ring calendar',
@@ -19,7 +20,7 @@ export default defineConfig({
 			sidebar: [
 				{
 					label: 'Introduction',
-					link: 'index',
+					link: '/',
 				},
 				{
 					label: 'Guides',
@@ -33,6 +34,7 @@ export default defineConfig({
 					autogenerate: { directory: 'reference' },
 				},
 			],
+			tableOfContents: false,
 		}),
 	],
 });
