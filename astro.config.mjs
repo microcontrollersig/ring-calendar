@@ -23,15 +23,17 @@ export default defineConfig({
 					link: '/',
 				},
 				{
-					label: 'Guides',
+					label: 'Previous designs',
 					items: [
-						// Each item here is one entry in the navigation menu.
-						{ label: 'Example Guide', slug: 'guides/example' },
+						{ label: 'Automated Perpetual Calendar', slug: 'previous-designs/tomaskins' },
+						{ label: 'Cryptic Calendar', slug: 'previous-designs/cryptic-calendar' },
 					],
 				},
 				{
-					label: 'Reference',
-					autogenerate: { directory: 'reference' },
+					label: 'Brainstorming',
+					items: [
+						{ label: 'Initial ideas', slug: 'brainstorming/ideas' },
+					],
 				},
 			],
 			tableOfContents: false,
