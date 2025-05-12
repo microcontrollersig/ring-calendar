@@ -6,8 +6,11 @@ import starlight from '@astrojs/starlight';
 export default defineConfig({
 	integrations: [
 		starlight({
-			title: 'My Docs',
-			social: [{ icon: 'github', label: 'GitHub', href: 'https://github.com/withastro/starlight' }],
+			title: 'Ring calendar',
+			social: [
+				{ icon: 'github', label: 'GitHub', href: 'https://github.com/microcontrollersig/ring-calendar' },
+				{ icon: 'pencil', label: 'GitHub', href: 'https://github.com/microcontrollersig/ring-calendar/content/docs/' },
+			],
 			sidebar: [
 				{
 					label: 'Guides',
