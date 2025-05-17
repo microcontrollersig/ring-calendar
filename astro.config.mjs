@@ -27,6 +27,7 @@ export default defineConfig({
 					items: [
 						{ label: 'Automated Perpetual Calendar', slug: 'previous-designs/tomaskins' },
 						{ label: 'Cryptic Calendar', slug: 'previous-designs/cryptic-calendar' },
+						{ label: '3D Printed Calendar', slug: 'previous-designs/3d-calendar' },
 					],
 				},
 				{
